@@ -1,4 +1,6 @@
 # Create a program that checks if two given strings are anagrams of each other.
+string1 = "listen"
+string2 = "silent"
 
 string1 = input("Enter the first string: ").lower()
 string2 = input("Enter the second string: ").lower()
