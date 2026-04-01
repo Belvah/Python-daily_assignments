@@ -3,7 +3,7 @@
 inventory = {} #initialize an empty dictionary to store product information
 
 def add_product(name, price, quantity): #parameter name, price, quantity
-    
+
     inventory[name] = {"price": price, "quantity": quantity} #uses the name as the key and a nested dictionary to store price and quantity
 
 def update_product(name, price=None, quantity=None):
@@ -16,3 +16,5 @@ def update_product(name, price=None, quantity=None):
 def remove_product(name):
     if name in inventory:
         del inventory[name]
+
+       
